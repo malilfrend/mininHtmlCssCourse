@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .conteiner {
+        text-align: center;
+        justify-content: center;
+        max-width: 100%;
+        margin: 0;
+        font-size: smaller;
+    }
+}
+
+body {
+    font-family: 'Roboto Mono', monospace; sans-serif;
+    background-color: #0f141e ;
+    color: white;
+}
+
+.conteiner {
+    max-width: 75%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.navbar {
+    background-color: #333333;
+    /* padding: 30px; */
+    margin-bottom: 6px;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    padding: 0px 20px;
+    text-align: center;
+}
+.navbar ul li {
+    /* margin-right: 10px; */
+    padding: 10px;
+    transition: all .3s;
+    display: inline-block;
+    margin: auto;
+    /* width: 20%; */
+    box-sizing: border-box;
+}
+.navbar ul li:hover {
+    background-color: #eeefff;
+}
+/* .navbar ul li:last-child {
+    margin-right: 0;
+} */
+
+.card {
+    margin-bottom: 5px;
+    border: 2px solid #192133;
+    transition: all .3s;
+}
+
+.card:hover {
+    padding: 10px;
+}
+
+.img {text-align: center;}
+.img img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    font-size: normal;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-weight: 400;
+    background-color: rgba(255,165,0,0.7);
+    padding: 3px 3px;
+}
+
+
+.header h1 {
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* .inline {
+    display: inline-block;
+} */
+
+
+.social {
+    background-color: rgba(100,149,237,0.7);
+    padding: 3px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #0f141e;
+    text-decoration: underline;
+}
+
+
+.hobby {
+    background-color: #192133;
+    padding: 3px;
+}
+.hobby ul {
+    list-style: none;
+}
+
+.ul {
+    padding-left: 30px;
+}
+
+.education {
+    background-color: #192133;
+    padding: 3px;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+.table td {
+    transition: all .3s;
+}
+
+.table td:hover {
+    background-color: #333333;
+}
+
+.table thead:nth-child(1) {
+    background-color: rgb(62, 62, 131) ;
+}
+
+.footer {
+    background-color: #192133;
+    padding: 3px;
+} 
+
+.btn {
+    font-family: inherit; /*наследует шрифт, который мы задавали выше*/
+    padding: 2px;
+    color: #fff;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all .3s; /*добавляет анимации*/
+
+}
+
+.btn:hover {
+    color: orange;
+}
+.btn:active {
+    background-color: #333333;
+}
+.form h4{
+    text-align: center;
+}
+.form-group label {
+    display: block;
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+}
+.form-row .form-group:last-child {
+   margin-right: 0;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    font-family: inherit;
+    outline: none;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Сайт-резюме Чебыкина Алексей ">
+    <meta name="keywords" content="Резюме, сайт, HTML, CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteiner">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">item 1</a></li>
+                <li><a href="#">item 2</a></li>
+                <li><a href="#">item 3</a></li>
+                <li><a href="#">item 4</a></li>
+                <li><a href="#">item 5</a></li>
+            </ul>
+        </nav>
+         
+        <div class="bio">
+            <div class="img card"> 
+                <img src="dKmZ7CnGkdM.jpg" alt="Не моя автарка, а лягушка" width="150">
+            </div>
+                        
+            <header class="header card">
+                <div class="headerText">
+                    <h1>Чебыкин Алексей</h1>
+                    <p>Люблю пельмени. Учусь в <a href="https://etu.ru/">ЛЭТИ</a>. Иногда хожу на пары, иногда нет.
+                    У меня жизнь бывает хипишь, иногда сижу хаваю.
+                    Клубника бомба.</p>
+                </div>
+            </header>
+        </div>    
+        <article class="social card">
+            <h4>Список соцсетей</h4>
+            <a href="https://telegram.org" target="_blank">Telegram</a> | <a href="https://google.com" target="_blank">Google</a>
+        </article> 
+
+        <div class="hobby card">
+            <h4>Мои хобби</h4>
+            <ul class="ul">
+                <li>Кушать пельмени</li>
+                <li>Ездить на велосипеде</li>
+                <li>Смотреть видео на youtube</li>
+            </ul>
+        </div>
+                <!-- Быстрое создание списков -->
+                <!-- ul>li{pisya}*10  -->
+                <!-- ul>li{pisya $}*5 -->
+                
+        <div class="education card">
+            <h4>Образование</h4>
+            <table class="table">
+                <thead>
+                    <th>
+                        Учреждение
+                    </th>
+                    <th>
+                        Год окончания
+                    </th>
+                    <th>
+                         Диплом
+                    </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            МАОУСОШ 32
+                        </td>
+                        <td>
+                            2019
+                        </td>
+                        <td>
+                            +
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Заочная школа МТФИ</td>
+                        <td>2019</td>
+                        <td>+</td>
+                    </tr>
+                    <tr>
+                        <td>СПбГЭТУ</td>
+                        <td>2023</td>
+                        <td>+</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <footer class="footer card">
+            <form class="form" action="/index.html">
+                <h4>Связаться со мной</h4>
+                <div class="form-row">
+                    <div class="form-group name"> 
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="input yout name">
+                    </div>
+                                
+                    <div class="form-group email">
+                        <label for="email">Ваш e-mail</label>
+                        <input type="email" id="email" placeholder="input email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение</label>
+                    <textarea placeholder="write your messege" id="message" cols="25" rows="5"></textarea>
+                </div>
+
+                <button class="btn">Отправить данные</button>
+
+            </form>
+        </footer>
+    </div>
+
+</body>
+</html>
