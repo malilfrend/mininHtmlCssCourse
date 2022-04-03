@@ -27,14 +27,15 @@
 }
 
 .circle:hover {
-    
     background-color: rgb(151, 32, 32);
-
+}
+.circle a {
+    text-decoration: none;
 }
 
 body {
     font-family: 'Roboto Mono', monospace, sans-serif;
-    font-weight: 900;
+    font-weight: 1000;
     background-color: #0f141e ;
     color: white;
 }
