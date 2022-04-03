@@ -13,8 +13,27 @@
     }
 }
 
+.circle {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(95, 32, 32);
+    border: 2px solid rgb(95, 32, 32);
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.circle:hover {
+    
+    background-color: rgb(151, 32, 32);
+
+}
+
 body {
-    font-family: 'Roboto Mono', monospace; sans-serif;
+    font-family: 'Roboto Mono', monospace, sans-serif;
     font-weight: 900;
     background-color: #0f141e ;
     color: white;
