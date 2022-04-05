@@ -7,10 +7,14 @@
     .circle {
         display: none;
     }
+    .conteiner {
+        max-width: 90%;
+    }
 }
 
 @media (max-width: 600px) {
     .conteiner {
+        max-width: 95%;
         text-align: center;
         justify-content: center;
         max-width: 100%;
@@ -27,6 +31,7 @@
 
 @media (max-width: 470px) {
     .conteiner {
+        max-width: 98%;
         font-size: x-small;
     }
 }
