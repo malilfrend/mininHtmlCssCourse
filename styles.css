@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+@media (max-width: 785px) {
+    .circle {
+        display: none;
+    }
+}
+
 @media (max-width: 600px) {
     .conteiner {
         text-align: center;
@@ -10,6 +16,35 @@
         max-width: 100%;
         margin: 0;
         font-size: smaller;
+    }
+    .social {
+        text-align: left;
+    }
+    .hobby {
+    text-align: left;    
+    }
+}
+
+@media (max-width: 470px) {
+    .conteiner {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 436px) {
+    .conteiner {
+        font-size: xx-small;
+    }
+}
+
+@media (max-width: 371px) {
+    .conteiner {
+        font-size: 10px;
+    }
+}
+@media (max-width: 343px) {
+    .conteiner {
+        font-size: 6px;
     }
 }
 
@@ -24,6 +59,7 @@
     border: 2px solid rgb(95, 32, 32);
     border-radius: 50%;
     transition: all .3s;
+    font-size: inherit;
 }
 
 .circle:hover {
@@ -178,6 +214,7 @@ a:hover {
     border-style: solid;
     border-color: black;
     transition: all .3s; /*добавляет анимации*/
+    font-size: inherit;
 
 }
 
@@ -214,5 +251,6 @@ a:hover {
     border-bottom: 1px solid #ccc;
     color: #fff;
     font-family: inherit;
+    font-size: inherit;
     outline: none;
 }
