@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.connect .form h4, .education h4, .hobby h4, .social h4, .header .header__text h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  background-color: #0f141e;
+  color: #d1d1d1;
+}
+
+.conteiner {
+  max-width: 90%;
+  margin: auto;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  max-width: 100%;
+  background-color: rgba(69, 69, 81, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 1.25rem;
+}
+.nav ul li {
+  padding: 10px 0px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+  text-align: center;
+}
+.nav ul li:hover {
+  background-color: #0f141e;
+}
+
+.header {
+  background-color: rgba(255, 165, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.header .header__img {
+  width: 12.5rem;
+  padding: 5px;
+}
+.header .header__text {
+  font-size: 1.25rem;
+  text-align: center;
+}
+.social {
+  text-align: center;
+  font-size: 1.25rem;
+}
+.card {
+  padding: 5px;
+  text-align: center;
+  margin: 5px 0px;
+  background-color: #192133;
+}
+
+.hobby {
+  font-size: 1.25rem;
+}
+.hobby .hobby__ul {
+  list-style: none;
+  margin: auto;
+  display: inline-block;
+}
+.hobby .hobby__ul .ul {
+  text-align: left;
+}
+
+.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.education .table {
+  font-family: inherit;
+  font-size: 1.25rem;
+  width: 100%;
+}
+.education .table thead th, .education .table tbody td {
+  padding: 5px;
+}
+.education .table th {
+  background-color: #234a92;
+}
+.education .table tbody td {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.education .table tbody td:hover {
+  background-color: gray;
+}
+
+.connect .form .form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.connect .form .form__row .name, .connect .form .form__row .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: left;
+  margin: 2px;
+  font-size: 1.25rem;
+}
+.connect .form .form__row .name input, .connect .form .form__row .email input {
+  font-family: inherit;
+  background: transparent;
+  border-bottom: 1px solid gray;
+  color: inherit;
+}
+.connect .form .form__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  font-size: 1.25rem;
+}
+.connect .form .form__group textarea {
+  background: transparent;
+  color: inherit;
+  border-bottom: 1px solid gray;
+}
+.connect .form__btn {
+  font-family: inherit;
+  font-size: 1.25rem;
+  margin-top: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: black;
+  color: #d1d1d1;
+  padding: 2px;
+}
+.connect .form__btn:hover {
+  color: orange;
+}
+
+.footer {
+  position: static;
+  bottom: 0px;
+  background-color: rgba(209, 209, 209, 0.7);
+  color: #0f141e;
+  width: 100%;
+  text-align: right;
+  padding: 7px;
+  font-size: 0.7rem;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+}
