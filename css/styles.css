@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.connect .form h4, .education1 h4, .hobby h4, .social h4, .header .header__text h1 {
+.connect .form h4, .education1 h4, .education h4, .hobby h4, .social h4, .header .header__text h1 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 2px;
@@ -98,6 +98,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .nav {
@@ -183,6 +189,38 @@ body {
   text-align: left;
 }
 
+.education {
+  background-color: #192133;
+  margin-bottom: 5px;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.education h4 {
+  text-align: center;
+  margin-top: 2px;
+}
+.education .education__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.education .education__info .education__group {
+  margin: 10px auto;
+}
+
 .education1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -197,6 +235,7 @@ body {
 }
 .education1 h4 {
   text-align: center;
+  margin-top: 2px;
 }
 .education1 .education__list {
   display: -webkit-box;
@@ -289,8 +328,6 @@ body {
 }
 
 .footer {
-  position: static;
-  bottom: 0px;
   background-color: rgba(209, 209, 209, 0.7);
   color: #0f141e;
   width: 100%;
@@ -332,9 +369,23 @@ a:visited {
   .conteiner {
     max-width: 100%;
   }
+
+  .education {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .education1 {
+    display: none;
+  }
+
+  .connect .form .form__row {
+    display: block;
+  }
 }
 @media (max-width: 346px) {
   html {
-    font-size: 0.3rem;
+    font-size: 0.4rem;
   }
 }

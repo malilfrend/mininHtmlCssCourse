@@ -35,77 +35,99 @@
                     Клубника бомба.</p>
             </div>
         </header>  
+        <main class="main">
+            <article class="social card">
+                <h4>Список соцсетей</h4>
+                <a href="https://telegram.org" target="_blank">Telegram</a> | <a href="https://google.com" target="_blank">Google</a>
+            </article> 
 
-        <article class="social card">
-            <h4>Список соцсетей</h4>
-            <a href="https://telegram.org" target="_blank">Telegram</a> | <a href="https://google.com" target="_blank">Google</a>
-        </article> 
-
-        <div class="hobby card">
-            <h4>Мои хобби</h4>
-            <div class="hobby__ul">
-                <ul class="ul">
-                    <li>Кушать пельмени</li>
-                    <li>Ездить на велосипеде</li>
-                    <li>Смотреть видео на youtube</li>
-                </ul>
-            </div>
-        </div>
-               
-        <div class="education1">
-            <h4>Образование</h4>
-            <div class="education__list">
-                <div class="list">
-                    <ul>
-                        <li>Учреждение</li>
-                        <li>МАОУСОШ №32</li>
-                        <li>Заочная Школа МФТИ</li>
-                        <li>СПбГЭТУ</li>
-                    </ul>
-                </div>
-                <div class="list">
-                    <ul>
-                        <li>Год окончания</li>
-                        <li>2019</li>
-                        <li>2019</li>
-                        <li>2023</li>
-                    </ul>
-                </div>
-                <div class="list">
-                    <ul>
-                        <li>Наличие диплома</li>
-                        <li>+</li>
-                        <li>+</li>
-                        <li>+</li>
+            <div class="hobby card">
+                <h4>Мои хобби</h4>
+                <div class="hobby__ul">
+                    <ul class="ul">
+                        <li>Кушать пельмени</li>
+                        <li>Ездить на велосипеде</li>
+                        <li>Смотреть видео на youtube</li>
                     </ul>
                 </div>
             </div>
-        </div>
-        
-        <div class="connect card">
-            <form class="form" action="/index.html">
-                <h4>Связаться со мной</h4>
-                <div class="form__row">
-                    <div class="form__group name"> 
-                        <label for="name">Ваше имя</label>
-                        <input type="text" id="name" placeholder="Input your name">
+
+            <div class="education">
+                <h4>Образование</h4>
+                <div class="education__info">
+                    <div class="education__group">
+                        <p>МАОУСОШ №32</p>
+                        <p>Год окончания: 2019</p>
+                        <p>Диплом: +</p>
                     </div>
-                                
-                    <div class="form__group email">
-                        <label for="email">Ваш e-mail</label>
-                        <input type="email" id="email" placeholder="Input email">
+                    <div class="education__group">
+                        <p>Заочная Школа МФТИ</p>
+                        <p>Год окончания: 2019</p>
+                        <p>Диплом: +</p>
+                    </div>
+                    <div class="education__group">
+                        <p>СПбГЭТУ</p>
+                        <p>Год окончания: 2023</p>
+                        <p>Диплом: +</p>
                     </div>
                 </div>
+            </div> 
 
-                <div class="form__group">
-                    <label for="message">Ваше сообщение</label>
-                    <textarea placeholder="Write your messege" id="message" cols="25" rows="5"></textarea>
+            <div class="education1">
+                <h4>Образование</h4>
+                <div class="education__list">
+                    <div class="list">
+                        <ul>
+                            <li>Учреждение</li>
+                            <li>МАОУСОШ №32</li>
+                            <li>Заочная Школа МФТИ</li>
+                            <li>СПбГЭТУ</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>Год окончания</li>
+                            <li>2019</li>
+                            <li>2019</li>
+                            <li>2023</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>Наличие диплома</li>
+                            <li>+</li>
+                            <li>+</li>
+                            <li>+</li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
+            
+            <div class="connect card">
+                <form class="form" action="/index.html">
+                    <h4>Связаться со мной</h4>
+                    <div class="form__row">
+                        <div class="form__group name"> 
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" placeholder="Input your name">
+                        </div>
+                                    
+                        <div class="form__group email">
+                            <label for="email">Ваш e-mail</label>
+                            <input type="email" id="email" placeholder="Input email">
+                        </div>
+                    </div>
 
-                <button class="form__btn">Отправить данные</button>
+                    <div class="form__group">
+                        <label for="message">Ваше сообщение</label>
+                        <textarea placeholder="Write your messege" id="message" cols="25" rows="5"></textarea>
+                    </div>
 
-            </form>
-        </div>
+                    <button class="form__btn">Отправить данные</button>
+
+                </form>
+            </div>
+        </main>
 
         <footer class="footer">
             <p>produced by Aleksey Chebykin</p>
