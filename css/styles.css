@@ -286,7 +286,6 @@ body {
       -ms-flex: 1;
           flex: 1;
   text-align: left;
-  margin: 2px;
   font-size: 1.25rem;
 }
 .connect .form .form__row .name input, .connect .form .form__row .email input {
@@ -306,6 +305,7 @@ body {
           flex-direction: column;
   text-align: left;
   font-size: 1.25rem;
+  margin: 2px;
 }
 .connect .form .form__group textarea {
   background: transparent;
