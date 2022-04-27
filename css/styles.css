@@ -160,24 +160,20 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-}
-.header .flip__image {
-  position: relative;
-}
-.header .flip__image .image__front:hover {
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-}
-.header .flip__image .image__front .header__img {
-  width: 12.5rem;
-  padding: 5px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-.header .flip__image .flip__back img {
+.header .header__image {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.header .header__image:hover {
+  -webkit-transform: scale(1.2) translateX(50%);
+          transform: scale(1.2) translateX(50%);
+}
+.header .header__image .header__img {
   width: 12.5rem;
+  padding: 5px;
 }
 .header .header__text {
   font-size: 1.25rem;
